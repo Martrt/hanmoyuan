@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>翰墨缘-墨</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="keywords" content="Moedog,墨,主页,翰墨缘-墨">
+    <meta name="description" content="翰墨缘-墨的个人主页">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="/statics/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <script src="/statics/js/jquery.min.js"></script>
+    <script src="/statics/js/aplayer.min.js"></script>
+  </head>
+  <body>
+    <div class="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+	<!-------固定背景-->
+	 <script>
+        var picnum = parseInt(Math.random()*19+1);
+        document.write('<div class="bak" style="background-image: url(/statics/img/rww.jpg);"></div>');
+    </script>
+     <!-------固定背景-->
+	 
+    <!---随机背景---
+    <script>
+        var picnum = parseInt(Math.random()*19+1);
+        document.write('<div class="bak" style="background-image: url(/statics/img/'+picnum+'.jpg);"></div>');
+    </script>
+	---->
+	
+	
+    <main>
+        <div class="content">
+            <div class="left">
+                <div class="avatar">
+                    <img src="https://q1.qlogo.cn/g?b=qq&nk=1416319327&s=100">
+                </div>
+                <ul class="menu">
+				<li>
+                        <a goto="#about" class="active">关于</a>
+                    </li>
+                    <li>
+                        <a goto="#home">联系</a>
+                    </li>
+                    <li>
+                        <a goto="#archives">文章</a>
+                    </li>
+                    <li>
+                        <a goto="#donate">捐款</a>
+                    </li>
+                </ul>
+                <div class="copyright">
+                    Made with
+                    <i class="fa fa-heart"></i> by
+                    <br>
+                    <a target="_blank">Fly</a>
+                </div>
+            </div>
+            <div class="right">
+                <section id="home">
+                    <h1>翰墨缘-墨</h1>
+                    <div class="items">
+                        <a href="http://墨博客" target="_blank" rel="noopener">
+                            <i class="fa fa-home"></i>
+                            <span>Blog</span>
+                        </a>
+                        <a href="https://github.com/Martrt" target="_blank" rel="noopener">
+                            <i class="fa fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:%3F@loli.cab" target="_blank" rel="noopener">
+                            <i class="fa fa-envelope"></i>
+                            <span>E-Mail</span>
+                        </a>
+                        <a href="https://twitter.com/moesdog" target="_blank" rel="noopener">
+                            <i class="fa fa-weibo"></i>
+                            <span>Weibo</span>
+                        </a>
+                        <a href="https://www.facebook.com/moesdog" target="_blank" rel="noopener">
+                            <i class="fa fa-qq"></i>
+                            <span>QQ</span>
+                        </a>
+                        <a href="无" target="_blank" rel="noopener">
+                            <i class="fa fa-weixin"></i>
+                            <span>Weixin</span>
+                        </a>
+                    </div>
+                </section>
+                <section id="archives">
+                    <h1>近期文章</h1>
+                    <ul class="archive-list">
+                        <li>Loading...</li>
+                    </ul>
+                </section>
+                <section id="about" class="active">
+                    <h1>关于</h1>
+                    <p>
+                        我，翰墨缘-墨，是一只菜狗<br>
+                        学生狗 / 没啥特长 / <del>死</del>技术宅 / html / 萌物( ? ? )<br>
+                        こいぬちゃん赛高 ! / 瞎折腾 / 搞事情 / <a href="https://jq.qq.com/?_wv=1027&k=5TZjR0G" target="_blank">More...</a>
+                    </p>
+                </section>
+                <section id="donate">
+                    <h1>求拯救吃土的小弟!</h1>
+                    <div class="donate-img-box">
+                          <img src="/statics/img/poor.png" >
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <p id="hitokoto">Loading...</p>
+            <div class="copyright-mobile">
+                Made with
+                <i class="fa fa-heart"></i> by
+                <a target="_blank">Fly</a>
+            </div>
+        </footer>
+        <div class="aplayer-footer">
+            <div class="ap-f" id="ap-f"></div>
+        </div>
+    </main>
+    <script src="/statics/js/main.js"></script>
+  </body>
+</html>
